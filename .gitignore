@@ -253,5 +253,5 @@ paket-files/
 libs
 
 # Generated .js and .map.js files
-.map.js
-.js
+*.map.js
+*.js
