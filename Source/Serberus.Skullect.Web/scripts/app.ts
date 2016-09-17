@@ -1,6 +1,6 @@
 ﻿import { Component } from "@angular/core";
 @Component({
-    selector: "skullect-app",
+    selector: "skullect-main-app",
     templateUrl: "views/app.html"
 })
-export class SkullectAppComponent { }
+export class AppComponent { }

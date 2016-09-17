@@ -11,17 +11,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var app_1 = require("./app");
-var SkullectAppModule = (function () {
-    function SkullectAppModule() {
+var card_1 = require("@angular2-material/card");
+var AppModule = (function () {
+    function AppModule() {
     }
-    SkullectAppModule = __decorate([
+    AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule],
-            declarations: [app_1.SkullectAppComponent],
-            bootstrap: [app_1.SkullectAppComponent]
+            imports: [platform_browser_1.BrowserModule, card_1.MdCardModule],
+            declarations: [app_1.AppComponent],
+            bootstrap: [app_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
-    ], SkullectAppModule);
-    return SkullectAppModule;
+    ], AppModule);
+    return AppModule;
 }());
-exports.SkullectAppModule = SkullectAppModule;
+exports.AppModule = AppModule;

@@ -1,10 +1,11 @@
 ﻿import { NgModule }      from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
-import { SkullectAppComponent }  from "./app";
+import { AppComponent }  from "./app";
+import { MdCardModule }  from "@angular2-material/card";
 
 @NgModule({
-    imports: [BrowserModule],
-    declarations: [SkullectAppComponent],
-    bootstrap: [SkullectAppComponent]
+    imports: [BrowserModule, MdCardModule],
+    declarations: [AppComponent],
+    bootstrap: [AppComponent]
 })
-export class SkullectAppModule { }
+export class AppModule { }

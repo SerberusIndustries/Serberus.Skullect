@@ -1,4 +1,4 @@
-/// <binding AfterBuild='scriptsNStyles' />
+/// <binding AfterBuild='scriptsNStyles' ProjectOpened='default' />
 var ts = require('gulp-typescript');
 var gulp = require('gulp');
 var clean = require('gulp-clean');
@@ -21,6 +21,7 @@ gulp.task("scriptsNStyles", () => {
             '@angular/**',
             'jquery/dist/jquery.*js',
             'bootstrap/dist/js/bootstrap.*js',
+            '@angular2-material/**/*',
     ], {
         cwd: "node_modules/**"
     })

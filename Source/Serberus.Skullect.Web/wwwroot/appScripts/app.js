@@ -9,16 +9,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var SkullectAppComponent = (function () {
-    function SkullectAppComponent() {
+var AppComponent = (function () {
+    function AppComponent() {
     }
-    SkullectAppComponent = __decorate([
+    AppComponent = __decorate([
         core_1.Component({
-            selector: "skullect-app",
+            selector: "skullect-main-app",
             templateUrl: "views/app.html"
         }), 
         __metadata('design:paramtypes', [])
-    ], SkullectAppComponent);
-    return SkullectAppComponent;
+    ], AppComponent);
+    return AppComponent;
 }());
-exports.SkullectAppComponent = SkullectAppComponent;
+exports.AppComponent = AppComponent;
