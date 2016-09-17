@@ -52,4 +52,5 @@
   "scripts": {
     "postinstall": "typings install"
   }
+, "-vs-binding":{"ProjectOpened":["install"]}
 }
